@@ -1,0 +1,20 @@
+{
+  "name": "recursion-top",
+  "version": "1.0.0",
+  "description": "",
+  "main": "assignment-2-merge-sort.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FedeLopez17/recursion-TOP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FedeLopez17/recursion-TOP/issues"
+  },
+  "homepage": "https://github.com/FedeLopez17/recursion-TOP#readme",
+  "type": "module"
+}
