@@ -1,14 +1,12 @@
-function _randomIntegerBetween(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-}
+import randomIntegerInRange from "../helper-functions/randomIntegerInRange.js";
 
 export default function testFibonacci(fibonacciFunction, cliArgument) {
   const fibonacciLimitArgument = Number(
-    cliArgument || _randomIntegerBetween(1, 15)
+    cliArgument || randomIntegerInRange(1, 15)
   );
 
-  console.log(
-    `First ${fibonacciLimitArgument} numbers from the Fibonacci sequence: 
-    ${fibonacciFunction(fibonacciLimitArgument)}`
-  );
+  console.log(`
+    First ${fibonacciLimitArgument} numbers from the Fibonacci sequence: 
+    ${fibonacciFunction(fibonacciLimitArgument)}
+  `);
 }

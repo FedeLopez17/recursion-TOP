@@ -1,6 +1,7 @@
-import testFibonacci from "./test-fibonacci.js";
-
-function fibonacciUpTo(limit, fibonacciSequenceArray = []) {
+export default function recursivefibonacciUpTo(
+  limit,
+  fibonacciSequenceArray = []
+) {
   // Initial check
   if (limit < 1) return;
 
@@ -14,8 +15,5 @@ function fibonacciUpTo(limit, fibonacciSequenceArray = []) {
     const previousPair = fibonacciSequenceArray.slice(-2);
     fibonacciSequenceArray.push(previousPair[0] + previousPair[1]);
   }
-  return fibonacciUpTo(limit, fibonacciSequenceArray);
+  return recursivefibonacciUpTo(limit, fibonacciSequenceArray);
 }
-
-const cliArgument = process.argv[2];
-testFibonacci(fibonacciUpTo, cliArgument);

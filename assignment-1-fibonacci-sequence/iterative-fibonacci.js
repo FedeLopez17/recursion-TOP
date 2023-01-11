@@ -1,6 +1,4 @@
-import testFibonacci from "./test-fibonacci.js";
-
-function fibonacciUpTo(limit) {
+export default function iterativefibonacciUpTo(limit) {
   const fibonacciSequenceArray = [];
 
   for (let index = 0; index < limit; index++) {
@@ -15,6 +13,3 @@ function fibonacciUpTo(limit) {
 
   return fibonacciSequenceArray;
 }
-
-const cliArgument = process.argv[2];
-testFibonacci(fibonacciUpTo, cliArgument);
