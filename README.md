@@ -21,7 +21,7 @@ A single number can be provided as argument. However, if an argument is not prov
  - Build a recursive [Merge Sort](https://www.hackerearth.com/practice/algorithms/sorting/merge-sort/visualize/) function that takes in an array and returns a sorted array.
 
 ### How to test:
-To test the Merge Sort function, run the `test-merge-sort.js` using Node.js.<br>
+To test the Merge Sort function, run `test-merge-sort.js` using Node.js.<br>
 Multiple numbers can be provided as argument. However, just like the Fibonacci functions, if an argument is not provided, the function will be run with a randomly generated set of numbers as argument.
 
 ### Example:
